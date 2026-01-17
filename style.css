@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.news{
+  border: 1px solid blue;
+}
+
+.news img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.data{
+  padding: 10px;
+  line-height: 28px;
+}
+
+.menu{
+  padding: 15px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu a{
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.main{
+  text-align: center;
+}
